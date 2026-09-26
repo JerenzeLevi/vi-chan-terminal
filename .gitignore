@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Secrets & local state (never commit keys)
+.env
+.env.*
+*.key
+*.pem
+config.json
+.history
+mcp.log
+.cutie-term/
+
+# Files the agent generates while you test
+images/
+.vichan-*/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
